@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virgo's E-Restaurant</title>
+
+<link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+    <div id="cat">
+
+Virgio's E Restaurant
+
+    </div>
+   
+    
+
+        
+<div>
+    <header>
+    Hungry? <br>Then you're at the right place
+</header>
+
+</div>
+
+
+
+
+
+
+        <p class="sde">Checkout our best selection of tasty meals that are <br>sure to fill you good. </p>
+
+
+
+        <div id="specialoffer">
+
+<p class>
+Limited OFFER  <br>
+ GET 40% off when you purchase these meals
+
+
+</p>
+
+</div>
+
+<div class="slideshow container">
+
+<div class="myslides fade">
+
+    <div class="numbertext">1/4</div>
+
+<img src="pexels-mali-maeder-65175.jpg" alt="Nice Looking steak" style="width: 100%;" >
+
+<div class="text"> Mandy's Esquisito</div>
+
+</div>
+
+
+
+<div class="myslides fade">
+
+    <div class="numbertext">2/4</div>
+
+<img src="pexels-geovane-souza-15071185.jpg" alt="Fruity Delight" style="width: 100%;" >
+
+<div class="text"> Pascal's Fruity Delight</div>
+</div>
+
+
+<div class="myslides fade">
+
+    <div class="numbertext">3/4</div>
+
+<img src="pexels-chokniti-khongchum-2280545.jpg" alt="Waffels with a strawberry topping" style="width: 100%;" >
+
+<div class="text"> Pete's Waffels</div>
+</div>
+
+
+<div class="myslides fade">
+
+    <div class="numbertext">4/4</div>
+
+<img src="pexels-glady-francis-1586942.jpg" alt="French fries" style="width: 100%;" >
+
+<div class="text"> French Fries</div>
+</div>
+
+
+</div>
+
+<br>
+
+<div style="text-align: center;">
+
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+</div>
+
+
+
+
+<script type="text/javascript">
+
+    let slideIndex =0;
+    showSlides();
+    
+    
+    function showSlides(){
+    let i;
+    let slides =
+    document.getElementsByClassName("myslides");
+    let dots =document.getElementsByClassName("dot")
+    for (i= 0; i< slideIndex.length; i++){
+        slides[i].style.display ="none";
+    }
+     slideIndex++
+     if (slideIndex > slideIndex.length) {slideIndex= 1}
+    
+    for (i =0; i< dots.length; i++) {
+    dots[i].className =dots[i].className.replace(
+        "active", ""
+    )
+    }
+    slides[slideIndex-1].style.display ="block"
+    dots[slideIndex-1].className += "active";
+    setTimeout(showSlides, 4000);
+    
+    
+    }
+    
+    
+    
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+</body>
+</html>

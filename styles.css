@@ -1,0 +1,151 @@
+
+
+
+
+
+*{box-sizing: border-box;}
+
+
+
+
+body{
+background: url(pexels-becerra-govea-photo-5773996.jpg) no-repeat;
+
+background-size: 50% 27.3%;
+
+background-attachment: local;
+
+background-position: 684px 55px;
+
+background-color: aquamarine;
+
+
+
+}
+
+#cat {
+
+color: white;
+
+background-color: black;
+
+overflow: hidden ;
+
+padding: 14px;
+
+
+
+}
+
+
+
+
+header{
+font-size: 50px;
+
+font-family: sans-serif;
+}
+
+
+.sde{ 
+    color: black;
+
+    font-family: sans-serif;
+
+font-size: 30px;
+
+}
+
+@media screen and(max-width: 800px){
+
+body{width: 100%;
+
+}
+
+}
+    
+.myslides {display: none;}
+
+img{ vertical-align: middle;}
+
+#specialoffer {
+
+color: white;
+
+background-color: black;
+
+font-family: sans-serif;
+
+font-size: 30px;
+
+width: 678px;
+
+position: relative;
+
+top: 120px;
+
+}
+
+.slideshow container{
+
+max-width: 1000px;
+
+position: relative;
+
+margin: auto;
+}
+
+.text{
+
+color: white;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+
+}
+
+.numbertext {
+color: white;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+
+.dot{
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: azure;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+
+}
+
+.active{
+background-color: #717171;
+}
+
+.fade{
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade{
+
+from{opacity: .4}
+
+to{opacity: 1}
+}
+
+@media only screen and (max-width:300px){
+.text{font-size: 11px;}
+}
+
+
+
